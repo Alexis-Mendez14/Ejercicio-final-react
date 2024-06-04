@@ -1,0 +1,12 @@
+export default function Nameuser(){
+   const name = 'Pepe'
+   return(
+      <p>Mi nombre es: {name} </p>
+   )
+}
+export default function Bio(){
+   return(
+   <
+   )
+}
+
