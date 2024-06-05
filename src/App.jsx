@@ -8,8 +8,9 @@ export const App =() =>{
 export function Productable ({Productos}){
 }
 export function Productfile ({}){
-  const Lista = Productable.map(Productable.filter(Producto =>PRODUCTOS.categoria === 'Cafetería'))
+  const ListaProductos = Productable.map(Producto.filter(Producto =>Productos.nombre))
 }
 export function Categoryfile ({}){
+  <h1>Cafetería</h1>
 
 }
