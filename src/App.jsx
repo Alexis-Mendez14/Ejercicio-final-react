@@ -1,4 +1,4 @@
-export {Productos} from "Producto.js"
+export {Productos} from "./Producto.js"
 
 export const App =() =>{
 
@@ -6,13 +6,12 @@ export const App =() =>{
   
 }
 export function Productable ({Productos}){
-  return <li>{Productos}</li>
-
+  const Lista =Productable.map(Productable => <li>{Productos}</li>)
   
 }
 export function Categoryfile ({}){
 
 }
 export function Productfile ({}){
-  
+
 }
