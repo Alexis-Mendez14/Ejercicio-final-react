@@ -6,12 +6,10 @@ export const App =() =>{
   
 }
 export function Productable ({Productos}){
-  const Lista =Productable.map(Productable => <li>{Productos}</li>)
-  
-}
-export function Categoryfile ({}){
-
 }
 export function Productfile ({}){
+  const Lista = Productable.map(Productable.filter(Producto =>PRODUCTOS.categoria === 'Cafetería'))
+}
+export function Categoryfile ({}){
 
 }
