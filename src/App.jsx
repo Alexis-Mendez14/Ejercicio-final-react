@@ -1,16 +1,13 @@
-export {Productos} from "./Producto.js"
-
+export {ObtenerPoke} from "./Pokemon.jsx"
+import { Link } from "react-router-dom";
 export const App =() =>{
-
-  <Productable Producto ={Productos}/>
+<link to={Pokemon/1}>Contact 1</link>;
+};
+export function pokemonfav({ObtenerPoke}){
   
 }
-export function Productable ({Productos}){
-}
-export function Productfile ({}){
-  const ListaProductos = Productable.map(Producto.filter(Producto =>Productos.nombre))
-}
-export function Categoryfile ({}){
-  <h1>Cafetería</h1>
-
-}
+const pokemon = JSON.parse(localStorage.getItem('pokemon'))
+const jwt = "sawawswaw"
+localStorage.setItem("token",jwt)
+const user = {}
+localStorage.setItem("pokemon",JSON.stringify(pokemon))
